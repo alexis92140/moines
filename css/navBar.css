@@ -15,21 +15,6 @@ font-family: 'Cinzel Decorative', cursive;
 a {
 
   text-decoration: none; }
-#welcome {
-  height: 750px;
-  background-image:url('../img/Background-beere.jpg');
-  background-size: cover;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-#ld {
-  font-family: 'roboto';
-  font-size: 20pt;
-  font-weight: 600;
-  color: #e3caa5;
-
-}
 
 .navBar li a {
   
