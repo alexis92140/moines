@@ -1,0 +1,18 @@
+#img{
+display: flex;
+justify-content: start;   
+width: 700px;
+height: 841px;
+left: 5px;
+}
+
+#introduction {
+display: flexbox;
+justify-content: end;
+text-align : right;
+width: 621px;
+height: 99px;
+left: 736px;
+top: 197px;
+
+}
