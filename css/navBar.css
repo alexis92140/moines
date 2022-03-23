@@ -84,7 +84,7 @@ width: 100%;
   
   }
   
-  ul {
+  .navBar ul {
   
     display: flex;
     justify-content: space-evenly;
@@ -94,11 +94,11 @@ width: 100%;
   }
   
 
-  ul li {
+  .navBar ul li {
     list-style: none;
   }
   
-  ul li a {
+  .navBar ul li a {
     color: black
   }
 
