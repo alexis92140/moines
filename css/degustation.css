@@ -1,18 +1,65 @@
+body{
+    background-color: #f8ead4;
+}
+
 .welcome{
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 10px;
+    grid-auto-rows: 100px;
+    margin: 2%;
 }
 
 .brassage {
-width: 700px;
-height: 841px;
-left: 5px;
+    grid-column: 1;
+    grid-row: 1;
+    margin: 2%;
 }
 
 .introduction {
-text-align : center;
-width: 621px;
-height: 99px;
-left: 736px;
-top: 197px;
-
+    grid-column: 2 ;
+    grid-row: 1 ;
+    margin: 2%;
+    padding-top: 5%;
 }
+
+.monastère {
+    grid-column: 2 ;
+    grid-row: 2 ;
+    margin: 2%;
+    padding-top: 5%;
+}
+
+h2 {
+    grid-column: 2 ;
+    grid-row: 3 ;
+    margin: 2%;
+    padding-top: 7%;
+}
+
+.liste{
+    grid-column: 2 ;
+    grid-row: 4 ;
+    margin: 5%;
+    
+}
+
+.bouton{
+    grid-column: 2 ;
+    grid-row: 5 ;
+    margin: 5%;
+    background-color: #E3CAA5;
+    border-radius: 10px;
+    border: 4px double #6e6e6e;
+    color: #141414;
+    text-align: center;
+    font-size: 28px;
+    width: 200px;
+    height: 80px;  
+    cursor: pointer;
+    
+}
+.bouton:hover {
+    background-color: rgb(226, 176, 102);
+  }
+
