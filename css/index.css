@@ -42,3 +42,9 @@
 .welcome_input > input {
   margin-top: 2em;
 }
+.link {
+  margin-top: 2em;
+  font-size: 4vw;
+  color: #ffffff;
+  text-decoration: none;
+}
