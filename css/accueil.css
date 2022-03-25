@@ -1,0 +1,44 @@
+* {
+
+}
+
+body { 
+    background-color: #F2EDE5;
+    margin: 0 auto
+}
+
+.titreUn {
+    font-size: 40px;
+    font-family: 'Abril FatFace', cursive;
+    font-weight: 100;
+    margin: 3%;
+}
+.titreDeux {
+    font-size: 40px;
+    font-family: 'Abril FatFace', cursive;
+    font-weight: 100;
+    margin: 3%;
+}
+
+.textUn img {
+    width: 100%;
+}
+.textUn p {
+    display: flex;
+    width: 90%;
+    margin: 3%;
+}
+
+.textDeux {
+    display: flex;
+    margin: 5%;
+    width: 90%;
+    gap: 100px
+}
+
+.vache {
+    width: 50%;
+}
+
+    
+    

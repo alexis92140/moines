@@ -81,3 +81,9 @@
   color: white;
   text-decoration: underline;
 }
+section.titreUn {
+  display: flex;
+  align-items: flex-start;
+  width: 500px;
+  height: 500px;
+}
