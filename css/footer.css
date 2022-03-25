@@ -1,29 +1,89 @@
 .footerBar {
-  position: absolute;
+  width: 100%;
+  background-color: #4d4d4d;
+  min-height: 200px;
+  padding: 10px 0px 25px 0px;
+  font-family: system-ui;
+  font-weight: semi-bold;
+  min-height: 100px;
+  color: #ffffff;
   display: flex;
+  width: 100%;
   justify-content: space-around;
- width:100%; background-color:#94856c; min-height:200px; padding:10px 0px 25px 0px ;
-font-family: Roboto;
-font-weight: semi-bold;
-color:#e0d4c8}
-
-.footerBar ul {
-  display: flex;
+  border-top: 1px solid #a2a2a2;
+  box-shadow: 0px 0px 7px 0px rgba(0, 0, 0, 0.75);
 }
 
- .footerBar li {
+.footerBar h4 {
+  font-size: larger;
+  font-variant: small-caps;
+  padding-bottom: 10px;
+}
+
+.footerBar li {
   list-style: none;
- }
-  
+}
+
+.social ul {
+  display: flex;
+}
+.social ul li {
+  width: 65px;
+}
+.social a img {
+  width: 100%;
+}
 
 .address {
-  padding-top:30px ; margin-bottom:10px ;
+  padding-top: 30px;
+  margin-bottom: 10px;
 }
 
 .contacts {
-  padding-top:30px ; margin-bottom:10px ;
+  padding-top: 30px;
+  margin-bottom: 10px;
+}
+.contacts div {
+  display: flex;
+}
+.contacts div img {
+  width: 25px;
+}
+.social {
+  padding-top: 30px;
+  margin-bottom: 10px;
 }
 
-.social {
-  padding-top:30px ; margin-bottom:10px ;
+.socialTitle {
+  text-align: center;
+}
+
+.footerMenu {
+  width: 100%;
+  background-color: #4d4d4d;
+  min-height: 200px;
+  padding: 10px 0px 25px 0px;
+  font-family: system-ui;
+  font-weight: semi-bold;
+  min-height: 20px;
+  color: #ffffff;
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.menuFooter > ul {
+  padding-top: 30px;
+  margin-bottom: 10px;
+}
+
+.menuFooter > ul > li > a {
+  color: white;
+  text-decoration: underline;
+}
+section.titreUn {
+  display: flex;
+  align-items: flex-start;
+  width: 500px;
+  height: 500px;
 }

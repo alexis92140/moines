@@ -1,0 +1,62 @@
+.cards-bierres {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    /* background-color: fuchsia; */
+}
+
+.bierre {
+    display: flex;
+    padding-bottom:20px;
+    flex: 0 1 24%;
+}
+
+.image-bierre-produit {
+    width: 15%;
+}
+
+.centered {
+    margin-top: 40px;
+    margin-right: auto;
+    margin-bottom: 0px;
+    margin-left: auto;
+    padding-bottom: 32px;
+    width: 55%;
+}
+
+.texte-bierre {
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    padding-left: 40px;
+    flex-basis:300px;
+}
+
+.liste-ul-produit {
+    list-style: none;
+    display: flex;
+    justify-content:center;
+    flex-direction: column;
+    padding-left: 40px;
+}
+
+.command-button {
+    top:50%;
+    background-color:#94856c;
+    color: #fff;
+    border:none;
+    border-radius:25px;
+    width: 100px;
+    height: 50px;
+    transition-duration: 0.4s;
+}
+
+.command-button:hover {
+    background-color: #080808; /* Green */
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+  }
+
+.emplacement-button {
+    padding-top: 16px;
+}
